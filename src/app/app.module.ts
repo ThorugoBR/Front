@@ -8,6 +8,7 @@ import { DashboardModule } from './dashboard/dashboard.module';
 import { SharedModule } from './shared/shared.module';
 import localePt from '@angular/common/locales/pt';
 
+
 registerLocaleData(localePt);
 
 

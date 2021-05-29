@@ -6,7 +6,8 @@ class Stock{
   minimum:number;
   date:string;
   exclusiveMinimum:boolean;
-  
+
 }
+
 
 export default Stock;

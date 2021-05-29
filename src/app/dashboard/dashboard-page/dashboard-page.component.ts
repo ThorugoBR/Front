@@ -10,6 +10,7 @@ export class DashboardPageComponent implements OnInit {
 
   stocks: Stock[]=[];
 
+  
   constructor(private dashboardService:DashboardService) { }
 
   ngOnInit(): void {

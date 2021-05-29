@@ -17,6 +17,7 @@ export class StockCardComponent implements OnInit {
   /**
   ajuste do numero para adicionar simbolo e espaçamento
   **/
+ 
 
   get variation(): string{
     const localizedVariationString=this.stock.variation.toLocaleString();

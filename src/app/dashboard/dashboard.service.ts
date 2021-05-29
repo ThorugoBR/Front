@@ -14,4 +14,5 @@ export class DashboardService {
     return this.http.get<Stock[]>(`${this.baseUrl}/stock`).toPromise();
   }
 
+  
 }

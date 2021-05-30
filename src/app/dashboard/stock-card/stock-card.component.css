@@ -20,7 +20,7 @@
 
 
 .negative-variation-border{
-  border-left-color:var(--negative-variation-color) ;
+  border-left-color:var(--negative-variation-color);
 }
 
 
@@ -72,6 +72,7 @@
   align-self: flex-end;
   margin-top: 0.15rem;
   font-size: 0.9rem;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12),0 1px 2px var(--positive-variation-color);
 }
 
 .stock-value-container .negative-variation{

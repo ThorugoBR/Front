@@ -6,21 +6,26 @@
   margin: 1.2rem;
   border-radius: 6px;
   border-left:solid var(--positive-variation-color) 0.25rem;
-
   display:flex ;
   flex-direction: column;
   justify-content: space-between;
   box-shadow: 0 1px 3px rgba(0,0,0,0.12),0 1px 2px rgba(0,0,0,0.24);
   transition: all 0.3s cubic-bezier(0.25,0.8,0.25,1);
+  box-shadow: 0.001rem 0.05rem 0.06rem rgba(0, 255, 13, 0.027),0 0.05rem 0.06rem rgba(9, 255, 0, 0.034);
+
 }
+
 .stock-card-container:hover{
-  box-shadow: 0 15px 28px rgba(0,0,0,0.25),0 1px 2px rgba(0,0,0,0.22);
+  box-shadow: 0 1rem 1.61rem rgba(9, 255, 0, 0.25),0 1rem 1.61rem rgba(1, 255, 56, 0.22);
 }
 
-
+.negative-variation-border:hover{
+  box-shadow: 0 1rem 1.61rem rgba(255, 0, 0, 0.25),0 1rem 1.61rem rgba(255, 0, 0, 0.22);
+}
 
 .negative-variation-border{
   border-left-color:var(--negative-variation-color);
+  box-shadow: 0.001rem 0.05rem 0.06rem rgba(255, 0, 0, 0.027),0 0.05rem 0.06rem rgba(255, 0, 0, 0.034);
 }
 
 
@@ -72,7 +77,7 @@
   align-self: flex-end;
   margin-top: 0.15rem;
   font-size: 0.9rem;
-  box-shadow: 0 1px 3px rgba(0,0,0,0.12),0 1px 2px var(--positive-variation-color);
+
 }
 
 .stock-value-container .negative-variation{

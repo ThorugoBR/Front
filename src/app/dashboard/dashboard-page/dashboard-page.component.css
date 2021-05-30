@@ -1,9 +1,10 @@
 .container{
   width: 100%;
-  padding: 1.62rem;
+  padding: 0.8rem 1.616rem;
   display: flex;
-  
-
   flex-direction: row;
   flex-wrap: wrap;
 }
+
+
+

@@ -17,7 +17,7 @@
 
 @media screen and (max-width:768px){
 .header{
-  width: 150%;
+  width: 768px;
   padding: 1rem 1.61rem;
   box-shadow: 0 0.05rem 0.08rem rgba(0,0,0,0.16),0  0.1rem 0.5rem rgba(0,0,0,0.23);
   justify-content: center;

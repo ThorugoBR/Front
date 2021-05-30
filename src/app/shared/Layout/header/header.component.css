@@ -23,7 +23,7 @@
   justify-content: center;
 }
 }
-
+/**
 @media screen and (max-width:420px){
   .header{
     width: auto;
@@ -33,5 +33,5 @@
   }
 
 }
-
+**/
 
